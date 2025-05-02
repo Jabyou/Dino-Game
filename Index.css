@@ -1,0 +1,45 @@
+.title{
+    color: black;
+    text-align: center;
+}
+.buttons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.button1{
+    flex-direction:center;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    background-color:aqua;
+
+}
+.button2{
+    flex-direction: center;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    background-color:red;
+}
+.gameboard{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.gamebackground{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    width: 500px;
+    height: 300px;
+    padding-right: 200px;
+    position: relative;
+
+    
+}
+.panda{
+    width:35px;
+    height:50px;
+    justify-content:center;
+    bottom:0;
+    position:absolute;
+}

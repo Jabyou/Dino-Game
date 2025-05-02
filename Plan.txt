@@ -1,0 +1,9 @@
+Dino forever running
+space bar to jump
+jump over cacti or/and flying things
+when you lose, game over button is shown
+when game over button is clicked reset the game
+
+Google, understand and explain in 1 sentence, what position in CSS means.
+-It means
+Explain each position in 1 sentence.
