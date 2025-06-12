@@ -73,7 +73,6 @@ function endGame(){
   clearInterval(gameTimer);   // Stop moving obstacles
   clearInterval(spawntimer);  // Stop creating obstacles
   document.getElementById("gameover").innerHTML = "Game Over!"; // Tell final score
-  window.location.reload();   // Restart the game
 
     }
 function collision(){
