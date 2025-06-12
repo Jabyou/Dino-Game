@@ -20,6 +20,14 @@
     padding-bottom: 5px;
     background-color:red;
 }
+.reset button{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.reset{
+    flex-direction: center;
+}
 .gameboard{
     display:flex;
     align-items: center;
@@ -42,4 +50,26 @@
     justify-content:center;
     bottom:0;
     position:absolute;
+}
+/* Jump animation */
+@keyframes jump {
+    0%   { bottom: 0px; }
+    50%  { bottom: 150px; } /* Jump up 100px high */
+    100% { bottom: 0px; }     /* Come back down */
+  }
+  
+  /* When we add .jump, it runs the jump animation */
+  .panda.jump {
+    animation: jump 1.0s ease-out; /* 0.5 seconds up-and-down */
+  }
+.obstacle{
+    width:10px;
+    height:100px;
+    position:absolute;
+    bottom:0;
+    background:rgb(68, 255, 0);
+}
+.Score{
+    text-align: center;
+
 }

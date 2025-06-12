@@ -5,5 +5,10 @@ when you lose, game over button is shown
 when game over button is clicked reset the game
 
 Google, understand and explain in 1 sentence, what position in CSS means.
--It means
+-The position property specifies the type of positioning method used for an element.
 Explain each position in 1 sentence.
+Static-default position for HTML elements
+Absolute-Element is positioned relative to its first positioned ancestor element
+Fixed-Element is positioned relative to the browser window
+Relative-Element is positioned relative to its normal position, so 'left:20px' adds 20 pixels to the elements left position
+Sticky-powerful tool for creating elements that stay fixed at a particular position as users scroll through a webpage
